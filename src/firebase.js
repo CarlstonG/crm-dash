@@ -8,7 +8,7 @@ const firebaseConfig = {
   projectId: "crm-solutions-8f773",
   storageBucket: "crm-solutions-8f773.appspot.com",
   messagingSenderId: "273180083572",
-  appId: "1:273180083572:web:cfcd79cb9c4f5d7dc85821",
+  appId: process.env.REACT_APP_ID,
   measurementId: "G-WTJ911MXYB"
 };
 

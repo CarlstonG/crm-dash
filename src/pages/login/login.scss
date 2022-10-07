@@ -6,8 +6,14 @@
   
   label {
     bottom: 0;
+    
   }
-
+h1{
+  text-align: center;
+  color: white;
+  justify-content: center;
+  padding-top: 15rem;
+}
   
 input[type="email"],
 input[type="password"] {
@@ -32,10 +38,28 @@ button[type="submit"] {
     border-radius: 1em;
     cursor: pointer;
   }
-  .signUp {
+  button[type="signUp"]  {
     float: right;
+    width: 45%;
+    background-color: #1919ff;
+    color: white;
+    padding: 0.8em 0.5em;
+    margin: 1.5em 0;
+    transition-duration: 600ms;
+    transition-property: background-color, transform;
+    border: none;
+    border-radius: 1em;
+    cursor: pointer;
   }
-  
+  .back{
+    
+    text-decoration: none;
+    padding-top: 1.7rem;
+    color: #fff;
+    padding: 0.6em 1.7em;
+    background-color: #1919ff;
+    border-radius: 1em;
+  }
   input[type="submit"]:hover {
     transform: scale(1.15);
     background-color: #1313ad;
